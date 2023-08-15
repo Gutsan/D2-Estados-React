@@ -1,0 +1,65 @@
+body{
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.cardRegistro{
+width: 25rem;
+height: 35rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 20px;
+}
+.cardRegistro h3{
+  margin-top: 1rem;
+}
+
+.Social-Header{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.SocialButton{
+  width: 60px;
+  height: 60px;
+  border: solid 1px #202020;
+  border-radius: 100%;
+  display: grid;
+  place-content: center;
+  font-size: 30px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 70%;
+}
+.formulario input{
+  padding-inline: 10px ;
+  width: 100%;
+}
+.AlertON{
+  display: inherit;
+}
+.AlertOFF{
+  display: none;
+} 
+.formulario Button{
+  width: 100%;
+}
+.msgAlert{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.erroInpt{
+  border-color: red;
+}
